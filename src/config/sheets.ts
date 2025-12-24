@@ -1,0 +1,48 @@
+export const SHEET_IDS = {
+  basicInfo: "1wjtv_W4YtKcOSa4BSEWPLY2urXD28aLtD6myHZd_RNo",
+  qualifications: "1cc2bZZkNPSn0jL0FWRv5pSTtRpcJD3YLM-2tkD_mWq8",
+  teaching: "16McY529er0hdH3GVk2XddrokuVBd2paDEeNOSft-S3c",
+  courses: "1OD2O9Nl1ztffIYGE3cMEHdvBtEFgGp12UrZdpguCMY4",
+  institutional: "1tnOZJ8S2ssqPYdP6NT8r95a4SLZ4C0skntSvk2eVBiE",
+  journalPublications: "1t52MJ2nFX4eNxjMMXE7HOwdnlv7mbDCNNGKK68ABnPA",
+  conferencePublications: "16QRkm8fT6bVi3ik3jHsi9-i_ebTdOZ2LnFIC1MYWzoI",
+  books: "1yzTcjr6MX_zxv6L-L1i9JHcp9JEqRY0v5npEOrHl3YM",
+  researchProjects: "19LGblRgsdQhh2b-yJCUX_YbvYasVFqOAr7DOPoTbonI",
+  patents: "1VfAeoLuiwAXn26R7Wuq43aLBAR9RKNSZLGxfOvnZ4jw",
+  fdp: "1PkwoyGBCo87tWgZRWB0En48tZN5hyUKS35KJ6TuSOd8",
+  memberships: "1VLcgpHEx7uJA4V6a5RXCvjZQ_XAlJ_Z1xrTW1YeezTo",
+  responsibilities: "1LK28VI9rXyHMzuXbFLQPXQQjQcyUThde1rLcTOEKvhM",
+  mentoring: "1XgNdnJhiU_qo1hkG2RzZzvTIwOnXqWlZqT-10cGW0Kk",
+  declaration: "1j02H5ElKPBTSaYqHwUlDeTRFQoEdztFV9OnXlm7Ss1s",
+  awards: "1N6tqHRfWiG1O4o36F6yVsHkbtKAhkphi2dShxoyCpnA",
+  extension: "1n0lO70C9YxLKC3q_GRCwcqzx3ojJ7b5y_p-0zOREIts",
+  skills: "1nVWEsOKDwcQOfP4E8POr7JVKMR_yUJUkAQTG8VVq750",
+  onlineProfiles: "1Wueuh7ArNiD8SzT-DX9YK43m3GWgtZpFMlgtq16XhHg",
+  contactMe: "1ffYp_EatxogdroSxDSWA3SK6gDRz5aUNtd6voTmjezA",
+};
+
+export const SECTION_TITLES: Record<keyof typeof SHEET_IDS, string> = {
+  basicInfo: "Basic Information",
+  qualifications: "Academic Qualifications",
+  teaching: "Teaching Experience",
+  courses: "Courses Taught",
+  institutional: "Institutional Contributions",
+  journalPublications: "Research & Publications",
+  conferencePublications: "Research & Publications",
+  books: "Research & Publications",
+  researchProjects: "Research & Publications",
+  patents: "Patents & Innovations",
+  fdp: "Development Programs",
+
+  memberships: "Professional Memberships",
+  responsibilities: "Academic Responsibilities",
+  mentoring: "Student Mentoring",
+  declaration: "Declaration",
+  awards: "Awards & Recognitions",
+  extension: "Extension & Outreach",
+  skills: "Technical Skills",
+  onlineProfiles: "Connect",
+  contactMe: "Contact Me",
+};
+
+export const CONTACT_FORM_URL = ""; // PASTE YOUR GOOGLE WEB APP URL HERE
